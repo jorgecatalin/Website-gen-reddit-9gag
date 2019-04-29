@@ -1,0 +1,623 @@
+html,body{
+	margin:0;
+	padding:0;
+	font-family:arial;-webkit-user-select: none;
+}
+ul{list-style-type:none;}
+a{text-decoration:none;color:white;}
+.buton{
+	background:rgba(255,125,1,1);
+	width:100px;
+	height:100px;
+	position:fixed;
+	right:0;
+	bottom:0;
+	border-top-left-radius:100%;
+	transition:0.7s;
+	cursor:pointer;
+	font-size:100px;
+	color:white;
+}
+.buton span{
+	margin:30px;
+}
+.butonClick{
+	margin-left:-100%;
+	margin-top:-100%;
+	width:125%;
+	height:135%;
+	border-radius:0%;
+	cursor:default;
+}
+#ceva{
+	background:red; 
+	padding:10px;
+}
+.adaugaPanel{
+	position:fixed;
+	display:none;
+	background:red;
+	top:5%;
+	left:50%;
+	width:500px;
+	margin-left:-270px;
+	background:rgba(255,155,1,1);
+	font-size:35px;
+	color:white;
+	text-align:center;
+	box-shadow:1px 1px 5px 0px grey;
+	
+}
+.adaugaPanel input{
+	height:50px;
+	width:70%;
+	margin:10px;
+	padding:4px;
+	font-size:25px;
+}
+.submitAdauga{
+	background:rgba(58,	95	,205,0.7);
+	cursor:pointer;
+	color:white;
+}
+.submitAdauga:hover{
+	background:white;
+	color:grey;
+}
+.inchidePanel{
+	position:absolute;
+	top:0px;
+	right:0px;
+	color:white;
+	background:rgba(255,1,1,0.5);
+	cursor:pointer;
+	padding:2px;
+	width:50px;
+}
+.inchidePanel:hover{
+	
+	background:rgba(255,1,1,1);
+}
+.background{
+	padding:0;
+	margin:0;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	
+}
+.newTop{
+	position:fixed;
+	
+}
+.butoaneDreapta{
+	font-size:40px;
+	margin:50px;
+	color:white;
+	float:right;
+	margin-left:0;
+	transition:0.5s;
+}
+.butoaneDreapta div{
+	float:left;
+	margin-left:30px;
+	cursor:pointer;
+}
+.butoaneDreapta div:hover{
+	color:orange;
+}
+.butoaneStanga{
+	font-size:40px;
+	margin:50px;
+	color:white;
+	float:left;
+	margin-right:0;
+	transition:0.5s;
+	
+}
+.butoaneStanga div,img{
+	float:left;
+	margin-left:20px;
+}
+.butoaneStanga div:hover{color:orange;}
+.pozaNume{
+	width:70px;
+	height:70px;
+	margin-top:-15px;
+}
+.top{
+	position:absolute;
+	top:0;
+	width:100%;
+	margin:0;
+	transition:0.5s;
+}
+.topNou{
+	position:fixed;
+	top:0;
+	left:0;
+	background:rgba(255,100,1,0.9);
+}
+.topNou nav{
+	font-size:25px;
+	margin:5px;
+	padding:5px;
+}
+.topNou div{
+	
+	margin-left:30px;
+}
+.topNou .pozaNume{
+	width:40px;
+	height:40px;
+	margin-top:-5px;
+}
+.orangeSubTop{
+	position:relative;
+	background:orange;
+	height:1%;
+}
+.blank{
+	position:relative;
+	height:100%;
+	margin:0;
+}
+.cuprins{
+	position:relative;
+	background:white;
+	overflow:hidden;
+	min-height:100%;
+}
+.cuprinsUser{
+	position:relative;
+	overflow:hidden;
+	min-height:100%;
+	
+}
+.cuprinsScris{
+	color:white;
+	width:45%;
+	height:400px;
+	margin:2%;
+	box-shadow:15px 15px 25px 0px grey;
+	float:left;
+	overflow:hidden;
+	background:orange;
+	font-size:35px;
+	text-align:center;
+	transition:0.5s;
+	
+}
+.cuprinsScrisContainer{
+	padding:10%;
+}
+.cuprinsDivPoza{
+	width:45%;
+	height:400px;
+	margin:2%;
+	box-shadow:15px 15px 25px 0px grey;
+	float:left;
+	overflow:hidden;
+	transition:0.5s;
+	
+	
+}
+.cuprinsPoza{
+	width:100%;
+	height:100%;
+	margin:0;
+}
+.footer{
+	font-size:15px;
+	padding:30px;
+	margin:0;
+	background:orange;
+	text-aling:center;
+	position:relative;
+	color:white;
+}
+.sageata{
+	position:absolute;
+	left:50%;
+	width:70px;
+	height:40px;
+	margin-left:-25px;
+	bottom:5;
+	opacity:0.7;
+	cursor:pointer;
+	
+}
+.containerLogin{
+	width:360px;
+	position:absolute;
+	top:10%;
+	left:50%;
+	margin-left:-180;
+}
+.choseLogin{
+	background:rgba(58,	95	,205,0.7);
+	padding:10px;
+	color:white;
+	margin-left:10px;
+	float:right;
+	border-top-left-radius:15%;
+	border-top-right-radius:15%;
+	cursor:pointer;
+	
+}
+.choseRegister{
+	background:white;
+	padding:10px;
+	color:rgba(58,	95	,205,0.7);
+	margin-left:10px;
+	float:right;
+	border-top-left-radius:15%;
+	border-top-right-radius:15%;
+	cursor:pointer;
+	
+}
+.minicontainerLogin{
+	float:left;
+	width:100%;
+	margin:0;
+	background:rgba(58,	95	,205,0.7);
+	display:block;
+	padding-bottom:10px;
+}
+.minicontainerLogin div,input{
+	font-size:25px;
+	color:grey;
+	padding:10px;
+	margin-left:5%;
+	width:90%;
+	margin-top:15px;
+}
+.minicontainerLogin div{
+	color:white;
+	font-size:15px;
+}
+.minicontainerRegister{
+	float:left;
+	width:100%;
+	margin:0;
+	background:rgba(58,	95	,205,0.7);
+	display:none;
+	padding-bottom:10px;
+}
+.succesRegister{
+	color:white;
+	padding:10px;
+	font-size:15px;
+}
+.menuTop{float:right;}
+.meniuTop{
+	position:absolute;
+	right:0;
+	display:none;
+	transition:0.5s;
+}
+.meniuTop a{
+	padding-right:0;
+}
+.meniuTop div{
+	margin:0;text-align:center;width:100%;}
+.baraMeniu{
+	width:100%;
+	height:4px;
+	left:0;
+	margin:0;
+	background:orange;
+	position:absolute;
+	bottom:0;
+}
+.meniuTopAfter{
+	background:rgba(255,100,1,0.9);
+	
+}
+.tabb1,.tabb2,.tabb3{display:none;}
+.containerMijloc{
+	position:relative;
+	left:50%;
+	margin-left:-300px;
+	width:600px;
+}
+.containerPost{
+	margin-top:30px;
+	width:100%;
+	height:500px;
+	font-size:30px;
+	overflow:hidden;
+	padding:0;
+	
+}
+.containerPost a{color:gray;overflow:hidden}
+.baraSusPost{width:100%;height:10%;margin:0;padding:0;}
+.baraSusPost div{float:left;}
+.baraSusPost img{float:left;height:70%}
+.numePost{}
+.imaginePost{width:100%;height:82%;margin:0;padding:0;transition:0.5s;}
+/*.imaginePost:hover{border-left:15px inset  rgba(22,22,255,0.8);}*/
+.imaginePost:hover{margin-left:-20%;margin-top:-18%;height:118%;width:140%}
+.baraJosPost{width:100%;height:8%;margin:0;padding:0;}
+.baraJosPost div{float:left;margin-left:10px;color:grey;}
+.baraJosPost img{
+	width:7%;
+	height:75%;
+	float:left;
+	overflow:hidden;
+	margin-top:2px;
+}
+
+.containerPostare{
+	position:relative;
+	width:600px;
+	left:50%;
+	margin-left:-300px;
+	color:gray;
+	margin-top:5px;
+	padding:0px;
+}
+.postareTop{
+	width:100%;
+	height:60px;
+	padding:10px;
+	
+}
+.postareTop div{
+	float:left;
+	color:gray;
+	font-size:30px;
+	margin-left:5px;
+}
+.postareTop img{
+	float:left;
+	color:width:10%;
+	margin-left:0px;
+	
+	height:70%;
+	margin-top:4px;
+}
+.postarePoza{
+	width:100%;
+	margin:0;
+	padding:0;
+	height:600px;
+	position:relative;
+}
+.postarePoza img{
+	width:100%;
+	height:100%;
+	margin:0;
+}
+.postareJos{
+	position:relative;
+	color:gray;
+	height:50px;
+	width:100%;
+}
+.postareJos a{
+    color:gray;
+	float:left;
+}
+.postareJos div{
+	width:7%;
+	height:70%;
+	margin-top:2px;
+	color:gray;
+	margin-left:5px;
+	float:left;
+	font-size:35px;
+}
+.postareJos img{
+	width:8%;
+	height:70%;
+	margin-top:4px;
+	float:left;
+}
+.lasaComentariu input{
+	width:100%;
+	margin-left:0;
+}
+.containerComent{
+	postion:relative;
+	margin-top:10px;
+	padding:2px;
+	
+}
+.containerComent a{
+	color:grey;
+}
+.containerComent a:hover{
+	color:orange;
+}
+.containerComent div{
+	float:left;
+	margin-left:5px;
+	
+}
+.containerComent img{
+	width:30px;
+	height:30px;
+	float:left;
+}
+.containerCom{
+	width:100%;
+	margin:5px;
+	
+}
+.sterge_msg{
+	position:absolute;
+	font-size:20px;
+	right:5px;
+	top:2px;
+	color:rgba(200,155,1,0.5)
+}
+.sterge_msg:hover{
+	color:gray;
+}
+.sterge_mesaj{
+	float:right;
+	font-size:20px;
+	right:5px;
+	color:rgba(200,155,1,0.5)
+}
+.sterge_mesaj:hover{
+	color:gray;
+}
+.apasaNamePostare{margin-left:3px;}
+.apasaNamePostare:hover{
+	color:orange;
+}
+.postarilelui{
+	margin-top:5px;
+	padding:5px;
+	color:white;
+	cursor:default;
+	float:left;
+	font-size:40px;
+	width:100%;
+	background:rgba(55,88,255,0.6)
+}
+.postariUser{width:100%;float:left; margin:10px;
+	font-size:35px;
+	color:white;}
+.postariUser img{
+	width:200px;
+	height:250px;
+	transition:0.3s;
+	cursor:pointer;
+	margin:10px;
+
+}
+.postariUser div{
+	float:left;
+	
+}
+.postariUser img:hover{width:300px;height:350px;margin-left:-90px;margin-top:-90px;}
+.userTop{
+	width:100%;
+	padding:5px;
+	margin:0;
+}
+.userTop div,img{
+	float:left;
+	font-size:30px;
+	color:white;
+}
+.userTop img{
+	width:30px;
+	height:30px;
+}
+.adaugaPrieten{
+	background:rgba(255,59,1,1);
+	cursor:pointer;
+	font-size:30px;
+	float:right;
+	color:white;
+	padding:5px;
+	box-shadow:1px 1px 1px 1px grey;
+}
+.adaugaPrieten:hover{
+	background:rgba(255,25,1,1);
+	
+}
+.containerUserCuprins{
+	width:900px;
+	margin-left:-450px;
+	position:relative;
+	left:50%;
+}
+.userSetariTop{
+	width:100%;
+	background:rgba(255,2,2,0.5);
+	padding:5px;
+}
+.userSetariTop div{color:white;font-size:45px;margin-top:20px;height:120px;}
+.userSetariTop img{width:100px;height:100px;padding:5px;}
+.descrierePoza{padding:5px;font-size:20px;}
+.likeImg:hover{cursor:pointer;}
+.iframe{
+	display:none;
+	position:fixed;
+	bottom:0;
+	left:0;
+	height:60%;
+	width:300px;
+	margin:0;
+	padding:0;
+}
+#informatiiCuprins div{
+	margin:5px;
+	float:left;
+	width:100%;
+	color:white;
+	font-size:30px;
+}
+#informatiiCuprins img{
+	width:100%;
+	height:400px;
+	margin:0;
+	float:left;
+}
+.postariAdaugaMaiMulte{
+	width:120px;
+	background:orange;
+	color:white;
+	cursor:pointer;
+	padding:10px;
+	position:relative;
+	left:50%;
+	margin-left:-70px;
+}
+.postariAdaugaMaiMulte:hover{
+	background:rgba(255,155,1,1);
+}
+.postariAdaugaMM{
+	
+}
+.nuArata{
+	display:none;
+}
+@media screen and (max-width:1050px){
+	.tab3{display:none;}
+	.tabb3{display:block;}
+}
+@media screen and (max-width:900px){
+	.tab2{display:none;}
+	.tabb2{display:block;}
+	.containerUserCuprins{width:100%;margin-left:0;left:0}
+}
+@media screen and (max-width:650px){
+	.containerPostare{width:100%;margin:0;left:0;}
+   .containerMijloc{width:100%;margin-left:0;left:0;}
+	.butoaneStanga,.butoaneDreapta{margin:10px}
+	.butoaneStanga div,.butoaneDreapta div{margin:5px;}
+	.meniuTop div{margin:0;}
+	.top img{margin-top:10px;}
+	.tab1{display:none;}
+	.tabb1{display:block;}
+	.adaugaPanel{
+		left:0;
+		width:100%;
+		margin-left:0;
+	}
+	.adaugaPanel input{
+		width:90%:
+		
+	}
+	.cuprinsDivPoza{
+		width:95%;
+	}
+	.cuprinsScris{
+		width:95%;
+		
+   }
+}
+@media screen and (max-width:550px){
+	.containerLogin{width:100%; left:0;margin-left:0;}
+}
+::-webkit-scrollbar{width:10px;}
+::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px white;}
+::-webkit-scrollbar-thumb{-webkit-box-shadow:inset 0 0 16px rgba(255,155,1,1);-webkit-box-shadow:1px 1px 5px 1px rgba(255,155,1,1);background:rgba(255,155,1,1);}
